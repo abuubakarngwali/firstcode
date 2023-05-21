@@ -1,0 +1,12 @@
+
+Block Level
+-----------------
+> Start with new line
+> Take whole width of screen
+> eg -  div, p, h, section, hr
+
+Inline Level
+---------------
+> Start in the same line
+> Only Take space which is required
+> Eg - span, img, a
