@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=e, initial-scale=1.0">
+    <title>food suppliers</title>
+    <style type="text/css">
+    *{padding: 0;margin: 0; box-sizing:  border-box;}
+    header{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(https://images.alphacoders.com/779/thumb-1920-779249.jpg);
+        background-size:cover;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        color: black;
+        display:flex;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    .logo{
+   font-size: 2em;
+   letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        position: relative;
+    }
+    .menu a:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:0%;
+        height: 100%;
+        border-bottom: 2px solid wheat;
+        transition: 0.5s linear;
+    }
+    .menu a:hover:before{
+        width: 90%;
+    }
+    .register a{ 
+        text-decoration: none;
+        color:blue;
+        padding: 10px 20px;
+        font-size: 20px;
+        background:orange;
+        border-radius: 8px;
+        box-shadow:cyan;
+        transition: 0.4s;
+
+    }
+    .register a:hover{
+        background: transparent;
+        border: 1px solid white;
+    }
+    .h-txt{
+        max-width: 650px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .h-txt span{
+        letter-spacing: 5px;
+    }
+    .h-txt h1{
+        font-size: 3.5em;
+    }
+    .h-txt a{
+        text-decoration: none;
+        background: indigo;
+        color: white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+    }
+    .h-txt a:hover{
+        background: transparent;
+        border: 1px solid yellow;
+    }
+    </style>
+</head>
+<body>
+    <header>
+<nav>
+    <div class="logo">
+        Eagle-E
+    </div>
+    <div class="menu">
+        <a href="#">home</a>
+        <a href="#">best food</a>
+        <a href="#">about us</a>
+        <a href="#">contact</a>
+    </div>
+    <div class="register">
+        <a href="#">register</a>
+    </div>
+</nav>
+<section class="h-txt">
+    <span>best</span>
+    <h1>Fresh food suppliers in zanzibar</h1>
+    <br>
+    <a href="#">order your foods</a>
+</section>
+    </header>
+    
+</body>
+</html>
