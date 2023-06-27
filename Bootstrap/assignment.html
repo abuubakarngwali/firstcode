@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <style type="text/css">
+        *{padding: 2px;margin:0; box-sizing:  border-box;}
+        header{
+            position: relative;
+             width: 100%;
+            height: 60vh;
+            background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url(https://static.student.com/storm-frontend-wp/uploads/2016/04/Student-Discounts-The-UK-Guide_food-1200x801.jpg);
+            background-size:cover;
+            font-family: sans-serif;
+        }
+        /*<!-- nav{
+            width: 100%;
+            height: 100px;
+            color: black;
+           display:flex;
+            justify-content:space-around;
+            align-items:center;
+        } -->*/
+        .h-txt{
+            width: 700px;
+            height: 40px;
+            font: normal normal 600 36px/55px Poppins;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            /*<!-- max-width: 700px; -->*/
+            position:absolute;
+            top:55%;
+            left:30%;
+            /*<!-- transform: translate(-50%, -50%);
+            text-align: center;
+            color:white;
+            font-size: 0.1em; -->*/
+        }
+       
+        .main{
+            width: 390px;
+            position: absolute;
+            top: 70%;
+            border: 03px solid white; 
+            background: white;
+            padding: 08px;
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            margin-left: 710px;
+            
+         }
+         
+        
+         input{
+             background: transparent;
+             border: 0px;
+             outline:0px;
+             width: 500px;
+             color: #636F88;
+         }
+         .login-signup{
+            position: absolute;
+            right: 80px;
+            top: 30px;
+            word-spacing: 10px;
+         }
+         .login{
+            color: white;
+            text-decoration: none; 
+        }
+        .create-acc{
+            color: white;
+            word-spacing: normal;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 1px 3px;
+            font-size: 20px;
+            position: absolute;
+            border: 1px solid white;
+        }
+        .logo{
+            position:absolute;
+            top:25%;
+            width: 120px;
+            height: 120px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #707070;
+            opacity: 1;
+            padding: 10px 30px;
+            font: normal normal 600 70px/106px Poppins;
+            letter-spacing: 0px;
+            color: #EB2929;
+            opacity: 1;
+            text-align: center;
+            margin-left: 750px;
+            /*<!-- border: 2px solid white; -->*/
+            border-radius: 250px;
+            box-shadow: white;
+        }
+        .section{
+            position: absolute;
+            padding: 20px 50px;
+        }
+        .tittle1-text{
+            top: 70vh;
+            left: 80px;
+            font: normal normal bold 30px/46px Poppins;
+            color: #192F60;
+            opacity: 1;
+        }
+        .tittle2-text{
+            top: 80vh;
+            left: 80px;
+            font: normal normal normal 18px/27px Poppins;
+            letter-spacing: 0px;
+            color: #8C96AB;
+            opacity: 1;
+        }
+        .location{
+            width: 220px;
+            position: absolute;
+            top: 70%;
+            border: 03px solid white; 
+            background: white;
+            padding: 10px;
+            margin-top: 5px;
+            margin-left: 460px;
+        }
+        .media{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            top: 75vh;
+            left: 60px;
+        }
+        .media-body{
+            position: absolute;
+            width: 160px;
+            height: 160px;
+           top: 2vh;
+            left: 150px;
+        }
+        .mt-0{
+            width: 88px;
+            height: 25px;
+            font: normal normal 600 18px/27px Poppins;
+            color: #192F60;
+            opacity: 1;
+         }
+         .para{
+          width: 138px;
+          height: 62px;
+          font: normal normal normal 14px/21px Poppins;
+          letter-spacing: 0px;
+          color: #8C96AB;
+          opacity: 1;
+         }
+         .media1{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            top: 75vh;
+            left: 380px;
+         }
+         .media-body1{
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            top: 2vh;
+            left: 150px;
+         }
+         .mt-0{
+            width: 88px;
+            height: 25px;
+            font: normal normal 600 18px/27px Poppins;
+            color: #192F60;
+            opacity: 1;  
+         }
+         .para1{
+            width: 138px;
+            height: 62px;
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #8C96AB;
+            opacity: 1;
+           }
+           .media2{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            top: 75vh;
+            left: 700px;
+         }
+         .media-body2{
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            top: 2vh;
+            left: 150px;
+         }
+         .mt-0{
+            width: 88px;
+            height: 25px;
+            font: normal normal 600 18px/27px Poppins;
+            color: #192F60;
+            opacity: 1;  
+         }
+         .para2{
+            width: 138px;
+            height: 62px;
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #8C96AB;
+            opacity: 1;
+           } 
+       /*<!-- .grid-container{
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+        border: 2px solid black;
+        top: 90vh;
+        left: 80px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        align-content: center;
+        height: 100px;
+       }
+        .grid-container >div{
+            
+            top: 90vh;
+        /*<!-- background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+        border: 2px solid white;
+        top: 300px; -->
+        text-align: center;
+       }
+       .breakfast{
+margin:10px ;
+top: 90vh;
+border: 2px solid blue;
+left: 80px;
+       } -->*/
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           
+            <span class="login-signup">
+                <a href="#" class="login">login</a>
+                <a href="#" class="create-acc">create an account</a>
+            </span>
+           
+        </nav>
+        <div class="logo">
+            e!
+        </div>
+        <section class="h-txt">
+            <h1>Find the best restaurants,Cafes and Bars</h1>
+        </section>
+        <div class="main">
+            <input type="search" placeholder="search for restaurant" >
+            <a href="#"><i class="fa fa-search icon-search"></i></a>
+        </div>
+        <div class="location">
+            <input type="search" placeholder="please type a location" >
+        </div>
+            </header>
+            <main>
+                <section class="section">
+                    <div class="tittle1-text">Quick searches</div>
+                    <div class="tittle2-text">discover restaurants by type of meal</div>
+                </section>
+            </main>
+              <!-- <div class="grid-container">
+<div class="breakfast">breakfast</div>
+<div class="lunch">lunch</div>
+<div class="snacks">snacks</div>
+              </div> -->
+            <div class="media">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrc3m-QfAXR_03Ex3MbJeBW1i7f5aPfxPusw&usqp=CAU" 
+              class="mr-3" 
+             style="width:120px  ; height: 120px ;"/>
+              <div class="media-body">
+                <h5 class="mt-0">Breakfast</h5>
+                <p class="para">
+                    start your day with exclusive breakfast options
+                </p>
+            </div>
+            </div>
+            <div class="media1">
+                <img src="https://t1.gstatic.com/images?q=tbn:ANd9GcS8-R0JmFkBCXB04aI3K62MYvx-7_teTT0vRkG3ypth_aiDvy8B"
+                class="mr-3" 
+                style="width:120px  ; height: 120px ;"/>
+                <div class="media-body1">
+                  <h5 class="mt-0">lunch</h5>
+                  <p class="para1">
+                      start your day with exclusive breakfast options
+                  </p>
+              </div>
+              </div>
+              <div class="media2">
+                <img src="https://th.bing.com/th/id/OIP.0-_DcbNK22GxfdUtCvwCPQHaFB?pid=ImgDet&w=84&h=84&c=7&dpr=1.3"
+                 class="mr-3" 
+                 style="width:120px  ; height: 120px ;"/>
+                <div class="media-body2">
+                  <h5 class="mt-0">snacks</h5>
+                  <p class="para2">
+                      start your day with exclusive breakfast options
+                  </p>
+              </div>
+              </div> 
+</body>
+</html>
