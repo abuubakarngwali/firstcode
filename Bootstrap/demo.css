@@ -1,0 +1,44 @@
+html,body {
+    height:0%;
+    width: 100%;
+    font-family:'poppins' sans-serif ;
+    color: #222;
+    margin: 2px;
+    padding: 2rem;
+}
+.welcom{
+    width: 75%;  
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.display-4{
+    font-weight: 500;
+    color: deeppink;
+    text-shadow:1px 1px 15px gold;
+}
+.h3{
+    font-weight: 200;
+    color: goldenrod;
+    text-shadow:1px 1px 15px yellow; 
+}
+.h6{
+    color: brown;
+}
+.img1-fluid{
+    width: 500px;
+    height: 450px;
+}
+.img2-fluid{
+    width: 500px;
+    height: 450px;
+}
+.img3-fluid{
+    width: 500px;
+    height: 450px;  
+}
+.toto{
+    height: 320px;
+}
+/* .img5-fluid{
+    width: 646px;
+    height: 430px; */

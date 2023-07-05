@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            font-family: poppins;
+        }
+        header{
+            background-color: #ce0505;
+            height: 80px;
+            position: relative;
+        }
+        .logo-span{
+            background-color: white;
+            border-radius: 50%;
+            padding: 7px 13px;
+            position: absolute;
+            left: 80px;
+            top: 15px;
+           }
+           .logo{
+               color: #ce0505;
+               font-size: 33px;
+               font-weight: 600px;
+               text-decoration: none;
+           }
+           .login-signup{
+               position: absolute;
+               right: 80px;
+               top: 30px;
+               word-spacing: 10px;
+           }
+           .login{
+               color: white;
+               text-decoration: none;
+           }
+           .create-acc{
+               color: white;
+               word-spacing: normal;
+               text-decoration: none;
+               border: 1px solid white;
+               padding: 10px 10px;
+               border-radius: 5px;
+           }
+        .heading{
+            position: relative;
+            width: 514px;
+            top: 30px;
+height: 51px;
+text-align: left;
+font: normal normal bold 36px/55px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+padding-left: 80px;
+        }
+        .small{
+            position: relative;
+            top: 70px;
+left: 10px;
+width: 350px;
+height: 600px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+        }
+        .filter-heading{
+            position: relative;
+            width: 55px;
+            left: 15px;
+height: 25px;
+text-align: left;
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+        }
+        .select-location{
+            width: 230px;
+            top: 2px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+        }
+        .write-location{
+            width: 208px;
+            top: 5px;
+height: 35px;
+border: 1px solid #8C96AB;
+border-radius: 3px;
+opacity: 1;
+        }
+        .cuisine1{
+            width: 52px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+        }
+        .cuisine2{
+            width: 80px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+        }
+        .cuisine3{
+            width: 52px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+        }
+        .checkbox{
+            position: relative;
+            left: 15px;
+            top:-1.5%;
+        }
+        .checkbox-item1{
+            width: 86px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+        }
+    .checkbox-item2{
+        width: 88px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+    .checkbox-item3{
+        width: 57px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+    .checkbox-item4{
+        width: 67px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+    .checkbox-item5{
+        width: 67px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+    .checkbox-item6{
+        width: 104px;
+        
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+    .checkbox-item7{
+        width: 96px;
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+    }
+.checkbox-item8{
+    width: 100px;
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+.checkbox-item9{
+    width: 104px;
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+.checkbox-item10{
+width: 53px;
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+.big-item1{
+    position: absolute;
+    top: 2px;
+left: 390px;
+width: 900px;
+height: 270px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+} 
+.rest-name1{
+    position: absolute;
+    left: 300px;
+    width: 300px;
+height: 43px;
+text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.rest-location1{
+    position: absolute;
+    left: 300px;
+    top:50px;
+}
+.rest-address1{
+    position: absolute;
+    left: 300px;
+    top:80px;
+}
+.img1{
+    position: absolute;
+    top: 2px;
+left: 430px;
+width: 120px;
+height: 120px;
+border: 2px;
+border-radius: 30px;
+}
+.line1{
+    position: absolute;
+    top: 130px;
+left: 0px;
+width: 900px;
+height: 0px;
+border: 1px solid #DEDFE5;
+opacity: 0.3;
+}
+.Bakery1{
+    position: relative;
+   top: 60%;
+   left: 80px;
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+}
+.Bakery2{
+    position: relative;
+    top: 65%;
+    left: 80px;
+ text-align: left;
+ font: normal normal normal 16px/30px Poppins;
+ letter-spacing: 0px;
+ color: #636F88;
+ opacity: 1;
+}
+.big-item2{
+    position: absolute;
+top: 300px;
+left: 390px;
+width: 900px;
+height: 270px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.rest-name2{
+    position: absolute;
+    width: 303px;
+height: 43px;
+left: 300px;
+top: 2px;
+text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.rest-Location2{
+   position: absolute;
+    left: 300px;
+    top:50px;
+}
+.rest-Address2{
+    position: absolute;
+    left: 300px;
+    top:80px;  
+}
+.img2{
+   position: absolute;
+    top: 2px;
+left: 40px;
+width: 120px;
+height: 120px;
+border: 2px;
+border-radius: 30px;
+}
+.line2{
+    position: absolute;
+    top: 130px;
+left: 0px;
+width: 900px;
+height: 0px;
+border: 1px solid #DEDFE5;
+opacity: 0.3;  
+}
+.Bakery3{
+    position: absolute;
+    top: 60%;
+    left: 80px;
+ text-align: left;
+ font: normal normal normal 16px/30px Poppins;
+ letter-spacing: 0px;
+ color: #636F88;
+ opacity: 1;
+}
+.Bakery4{
+    position:absolute;
+    top: 75%;
+    left: 80px;
+ text-align: left;
+ font: normal normal normal 16px/30px Poppins;
+ letter-spacing: 0px;
+ color: #636F88;
+ opacity: 1;
+}
+    .pagination_section {
+        position: relative;
+        width: 500px;
+        left: 600px;
+        top: 210px;
+    }
+    .pagination_section a{
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .pagination_section a:hover {
+        background-color: #031F3B;
+        color: white;
+    }
+    
+    /* pagination hover effect on active
+    
+    a:nth-child(5) {
+        background-color: green;
+        color: white;
+    }*/
+    
+    a:nth-child(1) {
+        font-weight: bold;
+    }
+    
+    a:nth-child(7) {
+        font-weight: bold;
+    }
+    
+    .content {
+        margin: 50px;
+        padding: 15px;
+        width: 700px;
+        height: 200px;
+        border: 2px solid black;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="logo-span">
+            <a href="#" class="logo">e!</a>
+        </span>
+        <span class="login-signup">
+            <a href="#" class="login">login</a>
+            <a href="#" class="create-acc">create an account</a>
+        </span>
+    </header>
+    <div>
+        <div class="heading">Breakfast place in mumbai</div>
+        <div style="padding-left: 50px;">
+            <div class="small">
+                <div class="filter-option">
+                    <div class="filter-heading">Filter</div>
+                    <div class="select-location">Select location</div>
+                    <select class="rectangle-2236">
+                        <option class="write-location">select location</option>
+                        <option>delhi</option>
+                        </select>
+                    <div class="cuisine1">Cuisine</div>
+                    <div>
+                        <input type="checkbox">
+                        <span class="checkbox-item1">North india</span>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <span class="checkbox-item2">South india</span>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <span class="checkbox-item3">Chineese</span>
+                        <div>
+                            <input type="checkbox">
+                            <span class="checkbox-item4">First food</span>
+                            <div>
+                                <input type="checkbox">
+                                <span class="checkbox-item5">Street food</span>
+                            </div>
+                            <div class="cuisine2">Cost for two</div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item6">Less than 500</span>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item7">500 to 1000</span>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item8">1000 to 1500</span>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item9">1500 to 2000</span>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item10">2000+</span>
+                            </div>
+                            <div class="cuisine3">Sort</div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item6">Price low to high</span>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <span class="checkbox-item7">Price high to low</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="big vertical">
+                        <div class="Item">
+                    <div>
+                        <div class="Small-item vrtical">
+                          <!-- image -->
+                        </div>
+                        <div class="big-item1">
+                            <div class="rest-name1">The Big Chill Cakery</div>
+                            <div class="rest-location1">FORT</div>
+                            <div class="rest-address1">Shop 1, Plot D, Samruddhi complex, Chincholi</div>
+                            <hr class="line1">
+                            <div class="Bakery1">CUISINES : Bakery</div>
+                            <div class="Bakery2">COST FOR TWO : ₹ 700</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="margin-left1">
+                            <!-- gap -->
+                        </div>
+                    </div>
+                        </div>
+                        <div class="Item">
+                            <div>
+                                <div class="Small-item vertical">
+                                    <img class="img1"  src="file:///C:/Users/ABUUBAKAR/AppData/Local/Temp/Temp1_1_jp8_0xzguo2.zip/1.%20HTML%20+%20CSS%20-%20Assignment/Images/breakfast.jpg">
+                                </div>
+                                <div class="big-item2">
+                                    <img class="img2"  src="file:///C:/Users/ABUUBAKAR/AppData/Local/Temp/Temp1_1_jp8_0xzguo2.zip/1.%20HTML%20+%20CSS%20-%20Assignment/Images/breakfast.jpg">
+                                    <div class="rest-name2">The Big Chill Cakery</div>
+                                    <div class="rest-Location2">FORT</div>
+                                    <div class="rest-Address2">Shop 1, Plot D, Samruddhi complex,  chincholi</div>
+                                    <hr class="line2">
+                                    <div class="Bakery3">CUISINE: Bakery</div>
+                                    <div class="Bakery4">COST FOR TWO : ₹ 700</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="margin-left2">
+                                   <!-- gap -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination_section">
+                        <a href="#"><< Previous</a>
+                        <a href="#" title="upendo">1</a>
+                        <a href="#" title="wema">2</a>
+                        <a href="#" title="ubunifu">3</a>
+                        <a href="#" title="uaminifu">4</a>
+                        <a href="#" title="vitendo">5</a>
+                        <a href="#">Next >></a>
+                    </div>
+       
+    
+                        <!-- <div class="Pagination">
+                            <a href="#">&it;</a>
+                            <a >1</a>
+                            <a >2</a>
+                            <a >3</a>
+                            <a >4</a>
+                            <a >5</a>
+                            <a >6</a>
+                            <a href="#">&gt;</a>
+                        </div> -->
+                        <!-- <nav aria-label="page">
+                            <ul class="pagination">
+                                <li class="page-item"><a class"page-link" href="#">previous</a></li>
+                                <li class="page-item"><a class"page-link" href="#">1</a></li>
+                                <li class="page-item"><a class"page-link" href="#">2</a></li>
+                                <li class="page-item"><a class"page-link" href="#">3</a></li>
+                                <li class="page-item"><a class"page-link" href="#">4</a></li>
+                                <li class="page-item"><a class"page-link" href="#">5</a></li>
+                                <li class="page-item"><a class"page-link" href="#">6</a></li>
+                                <li class="page-item"><a class"page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div> -->
+        </div>
+    </div>
+</body>
+</html>
