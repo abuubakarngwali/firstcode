@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-size:'poppins',sans-serif;
 }
-body,html{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
